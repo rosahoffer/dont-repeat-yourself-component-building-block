@@ -1,24 +1,24 @@
 <main>
     <section>
         <nav>
-            <a href="/" class="nav-button">
+            <a href="/" class="nav-button" aria-label="Home">
                 <img src="/images/home-icon.svg" alt="Home Button Icon" loading="lazy">
                 <p>Home</p>
             </a>
-            <a href="/" class="nav-button">
+            <a href="/" class="nav-button" aria-label="All Players">
                 <img src="/images/all-players-icon.svg" alt="All Players Icon" loading="lazy">
                 <p>All Players</p>
             </a>
-            <a href="/" class="nav-button">
+            <a href="/" class="nav-button" aria-label="All Teams">
                 <img src="/images/all-teams-icon.svg" alt="All Teams Icon" loading="lazy">
                 <p>All Teams</p>
             </a>
-            <a href="/" class="nav-button">
+            <a href="/" class="nav-button" aria-label="All Tournaments">
                 <img src="/images/all-tournaments-icon.svg" alt="All Tournaments Icon" loading="lazy">
                 <p>All<br>Tournaments</p>
             </a>
-            <a href="/" class="nav-button">
-                <img src="/images/current-tournament-icon.svg" alt="All Players Icon" loading="lazy">
+            <a href="/" class="nav-button" aria-label="Current Tournament">
+                <img src="/images/current-tournament-icon.svg" alt="Current Tournament Icon" loading="lazy">
                 <p>Current<br>Tournament</p>
             </a>
         </nav>

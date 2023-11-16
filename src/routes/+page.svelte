@@ -1,29 +1,29 @@
 <main>
     <section>
-        <nav>
-            <a href="/" class="nav-button" aria-label="Home">
-                <img src="/images/home-icon.svg" alt="Home Button Icon" loading="lazy">
-                <p>Home</p>
-            </a>
-            <a href="/" class="nav-button" aria-label="All Players">
-                <img src="/images/all-players-icon.svg" alt="All Players Icon" loading="lazy">
-                <p>All Players</p>
-            </a>
-            <a href="/" class="nav-button" aria-label="All Teams">
-                <img src="/images/all-teams-icon.svg" alt="All Teams Icon" loading="lazy">
-                <p>All Teams</p>
-            </a>
-            <a href="/" class="nav-button" aria-label="All Tournaments">
-                <img src="/images/all-tournaments-icon.svg" alt="All Tournaments Icon" loading="lazy">
-                <p>All<br>Tournaments</p>
-            </a>
-            <a href="/" class="nav-button" aria-label="Current Tournament">
-                <img src="/images/current-tournament-icon.svg" alt="Current Tournament Icon" loading="lazy">
-                <p>Current<br>Tournament</p>
-            </a>
-        </nav>
+      <nav aria-label="Main Navigation">
+        <a href="/" class="nav-button" aria-label="Home">
+          <img src="/images/home-icon.svg" alt="Home Button Icon" loading="lazy">
+          <span>Home</span>
+        </a>
+        <a href="/" class="nav-button" aria-label="All Players">
+          <img src="/images/all-players-icon.svg" alt="All Players Icon" loading="lazy">
+          <span>All Players</span>
+        </a>
+        <a href="/" class="nav-button" aria-label="All Teams">
+          <img src="/images/all-teams-icon.svg" alt="All Teams Icon" loading="lazy">
+          <span>All Teams</span>
+        </a>
+        <a href="/" class="nav-button" aria-label="All Tournaments">
+          <img src="/images/all-tournaments-icon.svg" alt="All Tournaments Icon" loading="lazy">
+          <span>All Tournaments</span>
+        </a>
+        <a href="/" class="nav-button" aria-label="Current Tournament">
+          <img src="/images/current-tournament-icon.svg" alt="Current Tournament Icon" loading="lazy">
+          <span>Current Tournament</span>
+        </a>
+      </nav>
     </section>
-</main>
+  </main>
 
 <style>
 

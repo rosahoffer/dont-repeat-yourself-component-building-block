@@ -1,29 +1,35 @@
-<section>
-    <nav>
-        <a href="/" class="nav-button">
-            <img src="/images/home-icon.svg" alt="home button">
-            <p>Home</p>
-        </a>
-        <a href="/" class="nav-button">
-            <img src="/images/all-players-icon.svg" alt="all players button">
-            <p>All Players</p>
-        </a>
-        <a href="/" class="nav-button">
-            <img src="/images/all-teams-icon.svg" alt="all teams button">
-            <p>All Teams</p>
-        </a>
-        <a href="/" class="nav-button">
-            <img src="/images/all-tournaments-icon.svg" alt="all tournaments button">
-            <p>All <br> Tournaments</p>
-        </a>
-        <a href="/" class="nav-button">
-            <img src="/images/current-tournament-icon.svg" alt="all players button">
-            <p>Current <br> Tournament</p>
-        </a>
-    </nav>
-</section>
+<main>
+    <section>
+        <nav>
+            <a href="/" class="nav-button">
+                <img src="/images/home-icon.svg" alt="Home Button Icon" loading="lazy">
+                <p>Home</p>
+            </a>
+            <a href="/" class="nav-button">
+                <img src="/images/all-players-icon.svg" alt="All Players Icon" loading="lazy">
+                <p>All Players</p>
+            </a>
+            <a href="/" class="nav-button">
+                <img src="/images/all-teams-icon.svg" alt="All Teams Icon" loading="lazy">
+                <p>All Teams</p>
+            </a>
+            <a href="/" class="nav-button">
+                <img src="/images/all-tournaments-icon.svg" alt="All Tournaments Icon" loading="lazy">
+                <p>All<br>Tournaments</p>
+            </a>
+            <a href="/" class="nav-button">
+                <img src="/images/current-tournament-icon.svg" alt="All Players Icon" loading="lazy">
+                <p>Current<br>Tournament</p>
+            </a>
+        </nav>
+    </section>
+</main>
 
 <style>
+
+    main{
+        background-color: var(--background-color);
+    }
 
     section{
         margin-left: auto;
@@ -33,6 +39,7 @@
     }
     
     nav{
+        background-color: var(--input-background-color);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -54,7 +61,7 @@
         font-family: var(--secondary-font-family);
         font-size: 0.8rem;
         font-weight: 500;
-        color: var(--selected-background-color)
+        color: var(--primary-font-color)
     }
 
     .nav-button:last-child{

@@ -1,4 +1,4 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" alt="All Teams Icon" loading="lazy">
 <g clip-path="url(#clip0_8_644)">
 <path d="M11.6666 15.1667C11.6666 15.7855 11.9125 16.379 12.35 16.8166C12.7876 17.2542 13.3811 17.5 14 17.5C14.6188 17.5 15.2123 17.2542 15.6499 16.8166C16.0875 16.379 16.3333 15.7855 16.3333 15.1667C16.3333 14.5478 16.0875 13.9543 15.6499 13.5167C15.2123 13.0792 14.6188 12.8333 14 12.8333C13.3811 12.8333 12.7876 13.0792 12.35 13.5167C11.9125 13.9543 11.6666 14.5478 11.6666 15.1667Z" stroke="#444D7B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9.33337 24.5V23.3333C9.33337 22.7145 9.57921 22.121 10.0168 21.6834C10.4544 21.2458 11.0479 21 11.6667 21H16.3334C16.9522 21 17.5457 21.2458 17.9833 21.6834C18.4209 22.121 18.6667 22.7145 18.6667 23.3333V24.5" stroke="#444D7B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -13,3 +13,9 @@
 </clipPath>
 </defs>
 </svg>
+
+<style>
+    svg{
+        max-width: 2rem;
+    }
+</style>

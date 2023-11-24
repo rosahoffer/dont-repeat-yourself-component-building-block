@@ -1,5 +1,5 @@
 {
-	"name": "dont-repeat-yourself-component-building-block",
+	"name": "atomic-design-component-library",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.27.4",
-		"svelte": "^4.0.5",
+		"svelte": "^4.2.7",
 		"vite": "^4.4.2"
 	},
 	"type": "module"

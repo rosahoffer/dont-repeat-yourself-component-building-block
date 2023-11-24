@@ -9,28 +9,28 @@
 <main>
     <section>
         <nav aria-label="Main Navigation">
-            <HomeButton/>
-            <AllPlayersButton/>
-            <AllTeamsButton/>
-            <AllTournamentsButton/>
-            <CurrentTournamentButton/>
+            <HomeButton />
+            <AllPlayersButton />
+            <AllTeamsButton />
+            <AllTournamentsButton />
+            <CurrentTournamentButton />
         </nav>
     </section>
 </main>
 
 <style>
-    main{
+    main {
         background-color: var(--background-color);
     }
 
-    section{
+    section {
         margin-left: auto;
         height: 100vh;
         max-width: 8rem;
         padding: 1rem;
     }
     
-    nav{
+    nav {
         background-color: var(--input-background-color);
         display: flex;
         flex-direction: column;
